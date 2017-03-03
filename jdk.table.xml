@@ -1,0 +1,56 @@
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="Python 2.7.6 (D:\Python27\python.exe)" />
+      <type value="Python SDK" />
+      <version value="Python 2.7.6" />
+      <homePath value="D:\Python27\python.exe" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="file://D:/Python27/DLLs" />
+            <root type="simple" url="file://D:/Python27/Lib" />
+            <root type="simple" url="file://D:/Python27/Lib/lib-tk" />
+            <root type="simple" url="file://D:/Python27" />
+            <root type="simple" url="file://D:/Python27/Lib/site-packages" />
+            <root type="simple" url="jar://D:/Python27/Lib/site-packages/setuptools-25.1.0-py2.7.egg!/" />
+            <root type="simple" url="file://D:/Python27/Lib/site-packages/flask-0.11.1-py2.7.egg" />
+            <root type="simple" url="file://D:/Python27/Lib/site-packages/itsdangerous-0.24-py2.7.egg" />
+            <root type="simple" url="file://D:/Python27/Lib/site-packages/jinja2-2.8-py2.7.egg" />
+            <root type="simple" url="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1494736245" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 2.7.6 virtualenv at E:\program\flask\venv" />
+      <type value="Python SDK" />
+      <version value="Python 2.7.6" />
+      <homePath value="E:\program\flask\venv\Scripts\python.exe" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="file://E:/program/flask/venv/Lib" />
+            <root type="simple" url="file://E:/program/flask/venv/Scripts" />
+            <root type="simple" url="file://D:/Python27/Lib" />
+            <root type="simple" url="file://D:/Python27/DLLs" />
+            <root type="simple" url="file://D:/Python27/Lib/lib-tk" />
+            <root type="simple" url="file://E:/program/flask/venv" />
+            <root type="simple" url="file://E:/program/flask/venv/Lib/site-packages" />
+            <root type="simple" url="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/-1564508290" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+  </component>
+</application>
