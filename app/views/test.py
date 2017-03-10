@@ -1,6 +1,12 @@
+# -*- coding:utf-8 -*-
+
 from app import app
-from flask import session
+from fabric.api import lcd, local
+
 
 @app.route("/test")
 def test():
-    return session['username']
+    with lcd('/data/ychen/flask/joms/app/'):
+        local('fab test')
+    return 'aa'
+
