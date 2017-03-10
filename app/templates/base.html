@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% block head %}
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-touch-fullscreen" content="yes" />
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="msapplication-tap-highlight" content="no" />
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1" />
+        <title>{% block title %} {% endblock %} - 金窝窝OMS</title>
+        <link href="static/css/bootstrap.min.css" rel="stylesheet">
+        <script src="static/js/jquery.min.js"></script>
+        <script src="static/js/bootstrap.min.js"></script>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+        <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    {% endblock %}
+</head>
+<body>
+
+{% block navbar %}
+
+{% endblock %}
+
+<div class="container">
+    {% for category,message in get_flashed_messages(with_categories=true) %}
+    <div class="alert {{category}}">
+        <a href="#" class="close" data-dismiss="alert">&times;</a>
+        <strong>{{message}}</strong>
+    </div>
+    {% endfor %}
+</div>
+
+{% block content %}
+
+{% endblock %}
+
+
+</body>
+</html>
